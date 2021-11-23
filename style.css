@@ -1,0 +1,125 @@
+/* ----------------------------------Página inteira---------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+/* ----------------------------------Cabeçalho---------------------------------- */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+    margin: auto;
+}
+
+.busca {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+nav ul li:hover {
+    font-weight: 520;
+    background-color: #00000013;
+} 
+
+.container {
+    background-color: rgb(157, 219, 96);
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 25px 0 25px;
+}
+
+/* ----------------------------------Corpo---------------------------------- */
+.banner_blackfriday {
+    background-color: black;
+    padding: 30px 30px 10px 30px;
+    margin-top: 10px;
+}
+
+.banner_blackfriday h1{
+    color: #f0f0f0;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.banner_blackfriday p{
+    color: #b4b4b4;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right;
+}
+.destaques h2{
+    margin: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.produtos {
+    display: flex;    
+    justify-content: space-around;
+    background-color: rgb(211, 138, 138);
+    border: solid 2px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.produto {
+    background-color: white;
+    padding: 20px;
+    border: ridge;
+}
+.produto h4 {
+    font-size: 15px;
+}
+
+.caixa-imagem {
+    border: solid 2px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+}
+.caixa-imagem img {
+    width: 150px;
+    border: solid 1px;
+}
+
+
+/* ----------------------------------Rodapé---------------------------------- */
+
+footer p {
+    font-size: 13px;
+    text-align: center;
+}
