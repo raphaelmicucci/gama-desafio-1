@@ -11,6 +11,7 @@
 a {
     text-decoration: none;
 }
+
 /* ----------------------------------Cabeçalho---------------------------------- */
 .navbar {
     display: flex;
@@ -57,13 +58,16 @@ nav ul li:hover {
 } 
 
 .container {
-    background-color: rgb(157, 219, 96);
+    background-color: rgb(133, 223, 43);
     max-width: 1400px;
     margin: auto;
     padding: 0 25px 0 25px;
 }
 
 /* ----------------------------------Corpo---------------------------------- */
+body {
+    background-color: rgb(44, 150, 44);
+}
 .banner_blackfriday {
     background-color: black;
     padding: 30px 30px 10px 30px;
@@ -116,10 +120,35 @@ nav ul li:hover {
     border: solid 1px;
 }
 
+.cont-inst {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cont-inst div {
+    background-color: #257e25;
+    margin: 30px 0;
+    padding: 20px;
+    max-width: 550px;
+}
+
+.institucional p {
+    text-align: justify; 
+}
+
+.institucional h3 {
+    padding-top: 10px;
+}
+
+.institucional ul li {
+    list-style-position: inside;
+}
 
 /* ----------------------------------Rodapé---------------------------------- */
 
 footer p {
     font-size: 13px;
     text-align: center;
+    margin: 5px;
 }
