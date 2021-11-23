@@ -58,15 +58,16 @@ nav ul li:hover {
 } 
 
 .container {
-    background-color: rgb(133, 223, 43);
+    background-color: rgb(116, 197, 34);
     max-width: 1400px;
     margin: auto;
     padding: 0 25px 0 25px;
+    box-shadow: 0 1px 10px black;
 }
 
 /* ----------------------------------Corpo---------------------------------- */
 body {
-    background-color: rgb(44, 150, 44);
+    background-color: #EBF6BE;
 }
 .banner_blackfriday {
     background-color: black;
@@ -88,36 +89,64 @@ body {
     text-align: right;
 }
 .destaques h2{
-    margin: 30px;
+    margin: 15px;
     text-align: center;
     text-decoration: underline;
 }
 .produtos {
     display: flex;    
     justify-content: space-around;
-    background-color: rgb(211, 138, 138);
-    border: solid 2px;
     margin: 10px;
     flex-wrap: wrap;
 }
 .produto {
     background-color: white;
     padding: 20px;
-    border: ridge;
-}
-.produto h4 {
-    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
 .caixa-imagem {
-    border: solid 2px;
     min-height: 180px;
     display: flex;
     align-items: center;
 }
+
 .caixa-imagem img {
     width: 150px;
-    border: solid 1px;
+}
+
+.caixa-imagem img:hover {
+    transform: scale(1.1);
+}
+
+.produto h4 {
+    font-size: 15px;
+}
+
+.antigo-preco {
+    color:#b4b4b4;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.novo-preco {
+    font-size: 15px;
+}
+
+.botao-adicionar {
+    text-align: right;
+}
+
+.botao-adicionar button {
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #8be28b; 
+}
+.botao-adicionar button:hover {
+    background-color: #41a741;
+    transform: scale(1.05);
 }
 
 .cont-inst {
@@ -127,7 +156,7 @@ body {
 }
 
 .cont-inst div {
-    background-color: #257e25;
+    background-color: #41a741;
     margin: 30px 0;
     padding: 20px;
     max-width: 550px;
