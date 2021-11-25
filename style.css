@@ -31,7 +31,35 @@ a {
 
 .busca {
     text-align: center;
+    display: inline-flex;
 }
+
+.busca input {
+    padding-left: 5px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    height: 30px;
+    background-color: #d7f1d7;
+    min-width: 200px;
+}
+
+.busca input:focus {
+    outline: none;
+}
+
+.busca input::placeholder {
+    color: rgb(84, 143, 25);
+}
+
+.busca button {
+    margin-left: -1;
+    padding-right: 7px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    height: 30px;
+    background-color: #d7f1d7;
+}
+
 
 nav {
     display: flex;
