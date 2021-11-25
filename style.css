@@ -89,10 +89,33 @@ body {
     text-align: right;
 }
 .destaques h2{
-    margin: 15px;
+    margin: 25px 15px 15px 15px;
     text-align: center;
     text-decoration: underline;
 }
+.cont-categorias {
+    margin: 25px auto;
+}
+.cont-categorias ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.cont-categorias ul li {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #19d8193a;
+    margin: 5px 15px;
+    align-items: center;
+}
+.cont-categorias ul li:hover {
+    font-weight: 520;
+    background-color: #56aa4e80;
+}
+
 .produtos {
     display: flex;    
     justify-content: space-around;
@@ -104,12 +127,14 @@ body {
     padding: 20px;
     margin-top: 15px;
     border-radius: 10px;
+    position: relative;
 }
 
 .caixa-imagem {
     min-height: 180px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .caixa-imagem img {
@@ -136,13 +161,16 @@ body {
 
 .botao-adicionar {
     text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .botao-adicionar button {
     border: none;
     padding: 5px;
     border-radius: 4px;
-    background-color: #8be28b; 
+    background-color: #8be28b;
 }
 .botao-adicionar button:hover {
     background-color: #41a741;
@@ -160,6 +188,7 @@ body {
     margin: 30px 0;
     padding: 20px;
     max-width: 550px;
+    border-radius: 10px;
 }
 
 .institucional p {
@@ -172,6 +201,36 @@ body {
 
 .institucional ul li {
     list-style-position: inside;
+}
+
+.fale-conosco button {
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #8be28b; 
+}
+
+.fale-conosco button:hover {
+    background-color: #296b29;
+    transform: scale(1.05);
+}
+
+.sad {
+    display: flex;
+    justify-content: center;
+}
+.sad img {
+    width: auto;    
+}
+.carrinho h1 {
+    text-align: center;
+}
+
+.carrinho p {
+    text-align: center;
+}
+.carrinho p a {
+    text-decoration: underline;
 }
 
 /* ----------------------------------Rodapé---------------------------------- */
