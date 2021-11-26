@@ -43,11 +43,11 @@ a {
     min-width: 200px;
 }
 
-.busca input:focus {
+.busca input, .fale-conosco input, textarea:focus {
     outline: none;
 }
 
-.busca input::placeholder {
+.busca input,::placeholder {
     color: rgb(84, 143, 25);
 }
 
@@ -144,6 +144,11 @@ body {
     background-color: #56aa4e80;
 }
 
+.cat-selecionada {
+    border: 2px solid #1f8a1c;
+    background-color: #3bda3bd8 !important;
+}
+
 .produtos {
     display: flex;    
     justify-content: space-around;
@@ -185,6 +190,7 @@ body {
 
 .novo-preco {
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .botao-adicionar {
@@ -203,6 +209,7 @@ body {
 .botao-adicionar button:hover {
     background-color: #41a741;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .cont-inst {
@@ -211,12 +218,34 @@ body {
     justify-content: space-evenly;
 }
 
-.cont-inst div {
+.institucional, .carrinho {
     background-color: #41a741;
     margin: 30px 0;
     padding: 20px;
     max-width: 550px;
     border-radius: 10px;
+}
+
+.fale-conosco {
+    background-color: #41a741;
+    margin: 30px 0;
+    padding: 20px;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.fale-conosco input, .selecionar-qtde input, textarea{
+    background-color: #D7F1D7;
+    padding: 8px;
+    margin-bottom: 10px;
+    min-width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+textarea {
+    min-width: 100;
 }
 
 .institucional p {
@@ -231,14 +260,18 @@ body {
     list-style-position: inside;
 }
 
-.fale-conosco button {
+.fale-conosco label { 
+    display: block;
+}
+
+.fale-conosco button, .finalizar, .selecionar-qtde button {
     border: none;
     padding: 5px;
     border-radius: 4px;
     background-color: #8be28b; 
 }
 
-.fale-conosco button:hover {
+.fale-conosco button:hover, .finalizar:hover {
     background-color: #296b29;
     transform: scale(1.05);
 }
@@ -250,6 +283,8 @@ body {
 .sad img {
     width: auto;    
 }
+
+
 .carrinho h1 {
     text-align: center;
 }
@@ -259,6 +294,72 @@ body {
 }
 .carrinho p a {
     text-decoration: underline;
+}
+.cont-compra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-compra, .cont-infos {
+    margin: 20px;
+}
+
+.cont-imagens {
+    padding: 25px;
+    max-width: 500px;
+}
+
+.cont-imagens img {
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.mais-imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.mais-imagens img {
+    width: 100px;
+    margin: 15px;
+}
+
+.cont-pagamento {
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #41A741;
+    padding: 25px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.cont-pagamento h3 {
+    padding-top: 10px;
+}
+.selecionar-qtde input {
+    background-color: #D7F1D7;
+    padding: 8px;
+    margin-bottom: 10px;
+    min-width: 80%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+.finalizar {
+    display: block;
+    margin-top: 10px;
+}
+.cont-infos {
+    background-color: #41A741;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #41A741;
+    padding: 25px;
+    box-shadow: 2px 2px 4px #000;
 }
 
 /* ----------------------------------Rodapé---------------------------------- */
