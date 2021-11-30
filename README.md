@@ -1,8 +1,8 @@
-# gama_desafio_1
+# organicamente
 Primeiro desafio do XP40 do Gama Academy
 
 
-Você pode verificar clicando <a href="https://raphaelmicucci.github.io/gama-desafio-1/">aqui</a>
+Você pode verificar clicando <a href="https://raphaelmicucci.github.io/organicamente/">aqui</a>
 
 
 O DESAFIO
