@@ -1,11 +1,14 @@
-# organicamente
-Primeiro desafio do XP40 do Gama Academy
+<img src="./img/bg-logo.png" title="Logo Organicamente" />
+
+Primeiro desafio do XP40 [Hacker] da Gama Academy
+===============
 
 
-Você pode verificar clicando <a href="https://raphaelmicucci.github.io/organicamente/">aqui</a>
+<a href="https://raphaelmicucci.github.io/organicamente/">Você pode acessar o projeto aqui</a>
+---------------
+<br>
 
-
-O DESAFIO
+ # O DESAFIO
 
 
 Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
