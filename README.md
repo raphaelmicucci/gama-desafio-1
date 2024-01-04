@@ -1,4 +1,5 @@
 <img src="./img/bg-logo.png" title="Logo Organicamente" />
+<img src="./img/logo.png" title="Logo Organicamente" />
 
 Primeiro desafio do XP40 [Hacker] da Gama Academy
 ===============
